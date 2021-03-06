@@ -1,0 +1,31 @@
+
+body {
+    font-family: "Heebo", sans-serif;
+    font-weight: 200px;
+}
+
+h1, h2, h3 {
+    font-family: "Heebo", sans-serif;
+    font-weight: 700px;
+}
+
+h2 {
+    color: #000;
+}
+
+.pt-6 {
+    padding-top: ($spacer * 4) !important;
+}
+
+.site-footer {
+    color:darkgrey;
+    padding: 20px 0;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    border-bottom: 3px solid #000000;
+}
