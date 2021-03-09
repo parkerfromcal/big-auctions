@@ -1,12 +1,17 @@
 
 body {
     font-family: "Heebo", sans-serif;
-    font-weight: 200px;
+    font-weight: 200;
 }
 
-h1, h2, h3 {
+h1 {
     font-family: "Heebo", sans-serif;
     font-weight: 700;
+}
+
+h2, h3 {
+    font-family: "Heebo", sans-serif;
+    font-weight: 200;
 }
 
 .display-4 {
