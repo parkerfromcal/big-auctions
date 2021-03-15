@@ -1,74 +1,107 @@
 body {
-  font-family: "Heebo", sans-serif font-weight 200; }
+    font-family: "Heebo", sans-serif;
+    font-weight: 200;
+}
 
 h1 {
-  font-family: "Heebo", sans-serif font-weight 700; }
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+}
 
-h2 {
-  font-family: "Heebo", sans-serif font-weight 200;
-  color: #000; }
-
-h3 {
-  font-family: "Heebo", sans-serif font-weight 200; }
+h2, h3 {
+    font-family: "Heebo", sans-serif;
+    font-weight: 200;
+}
 
 h4 {
-  font-family: "Heebo", sans-serif;
-  padding-top: 20px; }
+    padding-top: 20px;
+}
 
 p {
-  font-size: 18px; }
+    font-size: 18px;
+}
 
 .display-4 {
-  font-family: "Heebo", sans-serif font-weight 700; }
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    color: #000;
+}
 
 .pt-6 {
-  padding-top: 4rem; }
+    padding-top: 4rem;
+}
 
 .pt-7 {
-  padding-top: 5rem; }
+    padding-top: 5rem;
+}
 
 .pt-8 {
-  padding-top: 6rem; }
+    padding-top: 6rem;
+}
 
 .pt-9 {
-  padding-top: 7rem; }
+    padding-top: 7rem;
+}
 
 .pt-10 {
-  padding-top: 10rem; }
+    padding-top: 10rem;
+}
 
 .pb-6 {
-  padding-bottom: 4rem; }
+    padding-bottom: 4rem;
+}
 
 .pb-7 {
-  padding-bottom: 5rem; }
+    padding-bottom: 5rem;
+}
 
 .pb-8 {
-  padding-bottom: 6rem; }
+    padding-bottom: 6rem;
+}
 
 .pb-9 {
-  padding-bottom: 7rem; }
+    padding-bottom: 7rem;
+}
 
 .pb-10 {
-  padding-bottom: 10rem; }
+    padding-bottom: 10rem;
+}
 
 .site-footer {
-  color: #979797 padding 20px 0; }
+    color:darkgrey;
+    padding: 20px 0;
+}
 
 .nav-item {
-  font-weight: bold; }
-  .nav-item:hover {
-    border-bottom: 3px solid #000; }
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    border-bottom: 3px solid #000000;
+}
 
 .full-width-div {
-  position: relative;
-  width: 100%;
-  left: 0; }
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+
+.bg-gray {
+    background-color: lightgray;
+}
 
 @media (max-width: 767px) {
-  h3 {
-    padding-top: 10px;
-    padding-left: 5px; }
-  p {
-    padding-left: 5px; }
-  .button {
-    padding-left: 5px; } }
+    h3 {
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    p {
+        padding-left: 5px;
+    }
+    .button {
+        padding-left: 5px;
+    }
+}
