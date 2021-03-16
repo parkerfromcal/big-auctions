@@ -105,3 +105,48 @@ h2 {
         padding-left: 5px;
     }
 }
+
+.myaccordion {
+    width: 100%;
+    margin: 50px auto;
+    box-shadow: 0 0 1px rgba(0,0,0,0.1);
+}
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+    border: none;
+}
+
+.myaccordion .card-header {
+    max-width: 100%;
+    border-bottom-color: lightgray;
+    background: transparent;
+}
+
+.myaccordion .btn {
+    width: 100%;
+    font-size: 18px;
+    color: #000;
+    padding: 0;
+}
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+    text-decoration: none;
+}
+
+.card-header > h2 button[aria-expanded="true"] .fa-minus {
+    display: inline-block;
+}
+
+.card-header > h2 button[aria-expanded="true"] .fa-plus {
+    display: none;
+}
+
+.card-header > h2 button[aria-expanded="false"] .fa-minus {
+    display: none;
+}
+
+.card-header > h2 button[aria-expanded="false"] .fa-plus {
+    display: inline-block;
+}
