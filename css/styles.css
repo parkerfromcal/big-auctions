@@ -100,6 +100,29 @@ h2 {
     background-color: lightgray;
 }
 
+.btn-blue {
+    background-color: #2769e3;
+    color: white;
+}
+
+.btn-link-blue {
+    color: #2769e3 !important;
+    font-weight: bold;
+}
+
+.btn-orange {
+    background-color: #f8913d;
+    color: white;
+}
+
+.bg-orange {
+    background-color: #f8913d;
+}
+
+a {
+    color: #2769e3;
+}
+
 @media (max-width: 767px) {
     h3 {
         padding-top: 10px;
