@@ -31,11 +31,22 @@
                 <div class="collapse navbar-collapse" id="bigNavbar">
                     <ul class="navbar-nav ml-auto h5 text-lowercase">
                         <li class="nav-item active"><a class="nav-link" href="#"></a></li>
-                        <li class="nav-item px-4"><a class="nav-link" href="about.html"> About</a></li>
-                        <li class="nav-item px-4"><a class="nav-link" href="buy.html"> Buy</a></li>
-                        <li class="nav-item px-4"><a class="nav-link" href="sell.html"> Sell</a></li>
+                        <li class="nav-item-main px-4"><a class="nav-link" href="about.html"> About</a></li>
+                        <li class="nav-item-main px-4"><a class="nav-link" href="buy.html"> Buy</a></li>
+                        <li class="nav-item-main px-4"><a class="nav-link" href="sell.html"> Sell</a></li>
                         <a class="nav-link px-4" href="about.html"><i class="fa fa-envelope fa-lg"></i></a>
-                        <a class="nav-link px-4" href="#"><i class="fa fa-search fa-lg"></i></a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link px-4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-search fa-lg"></i>
+                            </a>
+                            <div class="dropdown-menu rounded">
+                                <div class="form-group-small has-search">
+                                    <span class="form-control-feedback"></span>
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -54,7 +65,8 @@
 
     <div class="full-width-div">
         <div class="row">
-            <img src="img/homepage_main.jpg" width="100%" height="600px" alt="concrete forms added to create building" />
+            <img src="img/homepage_main.jpg" width="100%" height="600px"
+                alt="concrete forms added to create building" />
         </div>
     </div>
 
@@ -89,9 +101,9 @@
 
         <div class="row pt-9 pb-9">
             <div class="col-md-6 col-xs-12">
-                    <h2>Buy with Big Auctions</h2>
-                    <p>Interested in selling with us? Get in touch and we'll post your equipment.</p>
-                    <a class="btn btn-blue btn-lg" href="buy.html" role="button">BUY</a>
+                <h2>Buy with Big Auctions</h2>
+                <p>Interested in selling with us? Get in touch and we'll post your equipment.</p>
+                <a class="btn btn-blue btn-lg" href="buy.html" role="button">BUY</a>
             </div>
             <div class="col-md-6 col-xs-12">
                 <h2>Sell with Big Auctions</h2>

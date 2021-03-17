@@ -86,8 +86,12 @@ h2 {
     font-weight: bold;
 }
 
-.nav-item:hover {
+.nav-item-main:hover {
     border-bottom: 3px solid #000000;
+}
+
+.form-group-small {
+    margin-bottom: 0rem;
 }
 
 .full-width-div {
