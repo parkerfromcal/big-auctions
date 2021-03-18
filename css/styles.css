@@ -104,6 +104,10 @@ h2 {
     background-color: lightgray;
 }
 
+.bg-orange {
+    background-color: #f8913d;
+}
+
 .btn-blue {
     background-color: #2769e3;
     color: white;
@@ -119,8 +123,8 @@ h2 {
     color: white;
 }
 
-.bg-orange {
-    background-color: #f8913d;
+.btn-pill {
+    border-radius: 25px !important;
 }
 
 a {
@@ -128,15 +132,14 @@ a {
 }
 
 @media (max-width: 767px) {
-    h3 {
-        padding-top: 10px;
-        padding-left: 5px;
+    h2, h3 {
+        padding: 10px 10px 0 10px;
     }
     p {
-        padding-left: 5px;
+        padding: 0 10px;
     }
-    .button {
-        padding-left: 5px;
+    button {
+        margin: 0 5px;
     }
 }
 
