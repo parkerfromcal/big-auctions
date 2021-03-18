@@ -253,6 +253,7 @@ a {
 }
 
 #s {
+    position: relative;
     width: 100%;
     background: #fff;
     padding: 0 11px;
