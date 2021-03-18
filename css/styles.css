@@ -100,6 +100,18 @@ h2 {
     left: 0;
 }
 
+.img-main {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+}
+
+.img-three {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
 .bg-gray {
     background-color: lightgray;
 }
@@ -141,6 +153,10 @@ a {
     button {
         margin: 0 5px;
     }
+}
+
+.mobile-center {
+    justify-content: center !important;
 }
 
 .myaccordion {
