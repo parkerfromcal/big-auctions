@@ -7,3 +7,12 @@ $(function() {
 $('.searchForm input').click(function(e) {
     e.stopPropagation(); //This will prevent the event from bubbling up and close the dropdown when you type/click on text boxes.
 });
+
+$(function() {
+    $( "#newsletterButton" ).on('click', function() {
+      $("#newsletterModal").modal('show');
+    });
+    $( "#newsletterButton" ).on('click', function() {
+        $("#newsletterModal").modal('hide');
+    });
+});
