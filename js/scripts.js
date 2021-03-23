@@ -16,3 +16,11 @@ $(function() {
         $("#newsletterModal").modal('hide');
     });
 });
+
+$(document).on('click', function(e) { 
+  const $target = $(e.target);
+  if(!$target.closest('searchForm').length && 
+  $('searchForm').is(":visible")) {
+    $('searchForm').hide();
+  }        
+});

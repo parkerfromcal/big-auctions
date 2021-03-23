@@ -278,3 +278,12 @@ a {
     border-radius: 0 25px 25px 0;
     background-color: #f8913d;
 }
+
+.nav-tabs .nav-link {
+    border-radius: 25px 25px 0 0;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #f8913d !important;
+}
