@@ -1,14 +1,12 @@
 $(() => {
-    const searchButton = document.getElementById('searchLink');
-
-    searchButton = () => {
-        searchButton.classList.toggle('open');
+	const searchButton = document.getElementById('searchLink');
+	searchButton.onclick = () => {
+		searchButton.classList.toggle('open');
     }
-
-    for(const form of document.getElementsByClassName('searchLink')) {
+    for (const form of document.getElementsByClassName('searchForm')) {
         form.querySelector('input[type="search"]').addEventListener('blur', () => {
-            searchButton.classList.toggle('open');
-        });
+			searchButton.classList.toggle('open');
+		});
     }
 })
 
