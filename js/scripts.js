@@ -1,12 +1,20 @@
-$(function() {
-    $('#searchLink').on('click', function(e) {
-        $(this).toggleClass('open');
-    });
-});
+$(() => {
+    const searchButton = document.getElementById('searchLink');
 
-$('.searchForm input').click(function(e) {
-    e.stopPropagation(); //This will prevent the event from bubbling up and close the dropdown when you type/click on text boxes.
-});
+    searchButton = () => {
+        searchButton.classList.toggle('open');
+    }
+
+    for(const form of document.getElementsByClassName('searchLink')) {
+        form.querySelector('input[type="search"]').addEventListener('blur', () => {
+            searchButton.classList.toggle('open');
+        });
+    }
+})
+
+$('.searchForm input').on('click', (e) => {
+        e.stopPropagation(); //This will prevent the event from bubbling up and close the dropdown when you type/click on text boxes.
+    });
 
 $(function() {
     $( "#newsletterButton" ).on('click', function() {
@@ -15,12 +23,4 @@ $(function() {
     $( "#newsletterButton" ).on('click', function() {
         $("#newsletterModal").modal('hide');
     });
-});
-
-$(document).on('click', function(e) { 
-  const $target = $(e.target);
-  if(!$target.closest('searchForm').length && 
-  $('searchForm').is(":visible")) {
-    $('searchForm').hide();
-  }        
 });
